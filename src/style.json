@@ -12,7 +12,7 @@
   "sources": {
     "openmaptiles": {
       "type": "vector",
-      "url": "mbtiles:///data/tiles.mbtiles"
+      "url": "https://6ug7hetxl9.execute-api.us-east-2.amazonaws.com/data/v3.json"
     },
     "attribution": {
       "attribution": "<a href=\"https://www.openmaptiles.org/\" target=\"_blank\">&copy; OpenMapTiles</a> <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">&copy; OpenStreetMap contributors</a>",
@@ -20,7 +20,6 @@
     }
   },
   "glyphs": "{fontstack}/{range}.pbf",
-  "sprite": "sprite",
   "layers": [
     {
       "id": "background",
