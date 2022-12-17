@@ -71,7 +71,6 @@ let attributionConfig = {
   customAttribution: "",
 };
 
-map.addControl(new maplibregl.AttributionControl(attributionConfig));
 map.addControl(languageLabel.label, "bottom-right");
 
 map.addControl(new search.PhotonSearchControl(), "top-left");
