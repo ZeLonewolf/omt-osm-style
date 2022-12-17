@@ -46,10 +46,6 @@ export const map = (window.map = new maplibregl.Map({
   version: 8
 }));
 
-//Override OMT style.json with AWS tileserver
-map.sprite = new URL("sprite/sprite", baseUrl).href,
-
-
 window.addEventListener("languagechange", (event) => {
   console.log(`Changed to ${navigator.languages}`);
   map.setStyle(buildStyle());

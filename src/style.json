@@ -9,6 +9,7 @@
   "zoom": 1,
   "bearing": 0,
   "pitch": 0,
+  "sprite": "https://zelonewolf.github.io/omt-osm-style/sprite/sprite",
   "sources": {
     "openmaptiles": {
       "type": "vector",
@@ -19,7 +20,7 @@
       "type": "vector"
     }
   },
-  "glyphs": "{fontstack}/{range}.pbf",
+  "glyphs": "https://zelonewolf.github.io/omt-osm-style/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
